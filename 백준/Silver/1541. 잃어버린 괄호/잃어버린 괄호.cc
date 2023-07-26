@@ -5,14 +5,11 @@ using namespace std;
 
 int n,ans;
 string str;
-vector<int> num;
-vector<char> op;
 
 int main() {
 	ios::sync_with_stdio(0); cin.tie(0);
 	cin >> str;
 	bool bo = false;
-	
 	string temp = "";
 
 	for (int i = 0; i < str.size(); i++) {
